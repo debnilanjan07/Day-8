@@ -1,0 +1,175 @@
+.box1 {
+    height: 100px;
+    background-image: linear-gradient(to right,
+            red,
+            yellow);
+}
+
+
+.box2 {
+    height: 200px;
+    width: 200px;
+    background-image: radial-gradient(red,
+            yellow);
+
+}
+
+.first {
+    width: 200px;
+    height: 200px;
+    background-color: #dd350f;
+    color: white;
+    /* float: right; */
+}
+
+.second {
+    width: 200px;
+    height: 200px;
+    background-color: rgb(172, 104, 104);
+    color: white;
+    float: right;
+
+}
+
+.third {
+    width: 200px;
+    height: 200px;
+    background-color: rgb(225, 128, 32);
+    color: white;
+    float: left;
+    clear: right;
+}
+
+.fourth {
+    width: 200px;
+    height: 200px;
+    background-color: rgb(220, 69, 9);
+    color: white;
+    float: right;
+    clear: left;
+}
+
+.blank {
+    height: 600px;
+}
+
+
+.box-sizing {
+    background-color: #f4f4f4;
+
+}
+
+.boxes {
+    background-color: yellow;
+    width: 200px;
+    height: 200px;
+    border: 9px solid red;
+    padding: 10px;
+}
+
+.content {
+    box-sizing: content-box;
+    /* Total width: 200px+(2*9px)=218px */
+    /* Total height:200px+(2*9px)=218px*/
+}
+
+.border-box {
+    box-sizing: border-box;
+    /*total width:200px-(2*9)-(2*10)=200-18-20=162px
+    total height:200px-(2*9)-20=200-38=162px*/
+}
+
+/* 
+    /* .box1 {
+    height: 150px;
+    width: 200px;
+    background: red;
+    float: right;
+}
+
+.box2 {
+    border: 2px solid red;
+    height: 150px;
+    width: 200px;
+    clear: right;
+}
+
+.box3 {
+    height: 150px;
+    width: 200px;
+    background: red;
+    float: right;
+}
+
+.box4 {
+    border: 2px solid red;
+    height: 150px;
+    width: 200px;
+    clear: right;
+} 
+
+div {
+    height: 80px;
+    width: 160px;
+    padding: 20px;
+    border: 8px solid red;
+    background-color: yellow;
+}
+
+.content {
+    box-sizing: content-box;
+    /* Total Width:160px+(2*8)+(2*20)=160+16+40=176+40=216
+Total height:80px+(2*8)+40=80+16+40=136
+}
+.box1 {
+    height: 150px;
+    width: 200px;
+    background: red;
+    float: right;
+}
+
+.box2 {
+    border: 2px solid red;
+    height: 150px;
+    width: 200px;
+    clear: right;
+}
+
+.box3 {
+    height: 150px;
+    width: 200px;
+    background: red;
+    float: right;
+}
+
+.box4 {
+    border: 2px solid red;
+    height: 150px;
+    width: 200px;
+    clear: right;
+} 
+
+div {
+    height: 80px;
+    width: 160px;
+    padding: 20px;
+    border: 8px solid red;
+    background-color: yellow;
+}
+
+.content {
+    box-sizing: content-box;
+    /* Total Width:160px+(2*8)+(2*20)=160+16+40=176+40=216
+Total height:80px+(2*8)+40=80+16+40=136
+
+
+
+
+}
+
+.border {
+    box-sizing: border-box;
+    /* Total Width=160px-(2*20px) -(2*8)==>160-56=104px*/
+/* Total height:80px+(2*8)+40=80-16-40=24 
+}
+*/
